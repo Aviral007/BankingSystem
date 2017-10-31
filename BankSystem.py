@@ -17,7 +17,7 @@ class Bank:
 		choice=int(input("Enter your choice:"))
         
 		if (choice==1):
-				name=input("Enter name:")
+				name=input("Enter name :")
 				amt=input("\nEnter opening balance:") 
 				self.create(name,amt) 
 		elif (choice==2 or choice==3 or choice==4 or choice==5):
